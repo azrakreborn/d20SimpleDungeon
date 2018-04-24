@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{b58b0c1b-cb81-42c2-8804-8ebf29bffd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{64767768-0ef2-4496-9e4d-715082034889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items\Armor">
+      <UniqueIdentifier>{63a124d4-6cc6-43cc-b0ba-d52fef3944c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items\Armor">
+      <UniqueIdentifier>{0329c659-6d9f-406e-96fa-355daefb2f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items\Weapon">
+      <UniqueIdentifier>{54bf0249-e0a4-4093-8551-11b8ce93d769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items\Weapon">
+      <UniqueIdentifier>{6c62de75-817b-46e7-9cbc-ba0b5a745872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items\Potion">
+      <UniqueIdentifier>{a226f22f-70a1-44c3-b2e1-5f9a79f42e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items\Potion">
+      <UniqueIdentifier>{192deaa8-646d-4514-900f-73cdd4aa698e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Quest System">
+      <UniqueIdentifier>{9f97e856-8deb-4a65-b0c5-5138b317da6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Quest System">
+      <UniqueIdentifier>{03331126-bb23-487f-88a1-c63fd54bf619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Combat System">
+      <UniqueIdentifier>{491e91bf-9624-4271-bcf2-25b4dbe20820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Combat System">
+      <UniqueIdentifier>{cb3f2d14-a41e-4491-8a5c-8d4a56cddf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters">
+      <UniqueIdentifier>{be257614-af64-445d-beb8-21037373fb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters\Races">
+      <UniqueIdentifier>{148154df-a33c-4ed5-bcf0-f44c47cce13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters">
+      <UniqueIdentifier>{b696f6ac-d36b-4802-86f3-152acda4cfc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters\Races">
+      <UniqueIdentifier>{694e61d6-8b17-4813-85fe-645df9e74f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters\Non Player Characters">
+      <UniqueIdentifier>{b3275374-7086-47eb-88e5-a23a23b2b9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters\Non Player Characters">
+      <UniqueIdentifier>{9c04c903-b5e7-4c58-a610-087535a0e8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters\Monsters">
+      <UniqueIdentifier>{af3dcf22-b59e-4e66-9639-ba31b7e5186e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters\Monsters">
+      <UniqueIdentifier>{5f16cbb6-3b2f-42b9-86ea-1680fea98501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestItem.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicArmor.h">
+      <Filter>Header Files\Items\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files\Items\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Items\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header Files\Items\Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicWeapon.h">
+      <Filter>Header Files\Items\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Race.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Dwarf.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="HalfOrc.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Halfling.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Gnome.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Elf.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="HalfElf.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Drow.h">
+      <Filter>Header Files\Characters\Races</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestItem.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Source Files\Items\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicArmor.cpp">
+      <Filter>Source Files\Items\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files\Items\Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Items\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicWeapon.cpp">
+      <Filter>Source Files\Items\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Race.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Dwarf.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Halfling.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfOrc.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Gnome.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Elf.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfElf.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Drow.cpp">
+      <Filter>Source Files\Characters\Races</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
